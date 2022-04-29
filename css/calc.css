@@ -1,0 +1,131 @@
+.outer{
+	border: 1px solid black;
+	margin-top: 80px;
+	margin-left: 380px;
+	width: 415px;
+   height: 285px;
+   background-color: black;
+   border-radius: 10px;
+
+
+padding: 3px;
+}
+.flex-container{
+	display: flex;
+}
+
+/*.r1,.r2,.r3,.r4,.r5,.r6,.r7,.r8,.r9,.r10,.r11,.r12,.r13,.r14,.r15,.r16,.r17{
+	border: 2px solid black;
+	
+}*/
+.row4 input{
+width: 100px;
+	height: 50px;
+	background-color: gray;
+	border-radius: 15px;
+	font-size: 22px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.row1 input{
+width: 100px;
+	height: 50px;
+	/*background-color: gray;*/
+	border-radius: 15px;
+	font-size: 22px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.row2 input{
+width: 100px;
+	height: 50px;
+	/*background-color: gold;*/
+	border-radius: 15px;
+	font-size: 22px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.row3 input{
+width: 100px;
+	height: 50px;
+	/*background-color: gold;*/
+	border-radius: 15px;
+	font-size: 22px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+.textpart {
+   width: 300px;
+   display: flex;
+   height: 20px;
+   margin-bottom: 50px;
+}
+.place input{
+  width: 350px;
+  height: 60px;
+  border-radius: 7px;
+  /*background-color: lawngreen;*/
+}
+.clear input{
+	width: 50px;
+	height: 65px;
+	border-radius: 7px;
+	margin-left: 4px;
+	background-color: darkred;
+	color: white;
+
+}
+.r13 input{
+	background-color: blue;
+}
+
+
+
+@media screen and (max-width: 360px){
+.outer{
+	margin-left: 5px;
+margin-right: 5px;
+width: 140px;
+   height: 112px;
+}
+.row4 input,.row1 input,.row2 input,.row3 input{
+width: 35px;
+	height: 20px;
+	background-color: gray;
+	border-radius: 5px;
+	font-size: 12px;
+	margin-bottom: 1px;
+	margin-right: 1px;
+	margin-top: -8px;
+}
+.textpart {
+   width: 70px;
+   display: flex;
+   height: 10px;
+   margin-bottom: 50px;
+}
+.place input{
+  width: 100px;
+  height: 20px;
+  border-radius: 2px;
+  /*background-color: lawngreen;*/
+}
+.clear input{
+	width: 30px;
+	height: 20px;
+	border-radius: 2px;
+	margin-left: 4px;
+	background-color: darkred;
+	color: white;
+ font-size: 11px;
+ margin-top: 4px;
+}
+.flex-container{
+	margin-top: -30px;
+}
+body{
+	width: 50%;
+	height: 125px;
+	margin-top: 10px;
+}
+}

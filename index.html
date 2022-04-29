@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/calc.css">
+</head>
+<body>
+	<div class="all">
+ <div class="outer">
+ 	<div class="textpart">
+ 		<div class="place">
+        <input type="text" name="" value=" " id="result"></div><div class="clear"><input type="button" name="" value="AC" onclick="clearscreen()"></div></div>
+ 	
+ 	<div class="flex-container">
+ 		<div class="row1">
+ 			<div class="r1"><input type="button" name="" value="1" onclick="display('1')"></div>
+ 			<div class="r2"><input type="button" name="" value="4" onclick="display('4')"></div>
+ 			<div class="r3"><input type="button" name="" value="7" onclick="display('7')"></div>
+ 			<div class="r4"><input type="button" name="" value="."></div>
+ 		</div>
+ 		<div class="row2">
+ 			<div class="r5"><input type="button" name="" value="2" onclick="display('2')"></div>
+ 			<div class="r6"><input type="button" name="" value="5" onclick="display('5')"></div>
+ 			<div class="r8"><input type="button" name="" value="8" onclick="display('8')"></div>
+ 			<div class="r9"><input type="button" name="" value="0" onclick="display('0')"></div>
+ 		</div>
+ 		<div class="row3">
+ 			<div class="r10"><input type="button" name="" value="3" onclick="display('3')"></div>
+ 			<div class="r11"><input type="button" name="" value="6" onclick="display('6')"></div>
+ 			<div class="r12"><input type="button" name="" value="9" onclick="display('9')"></div>
+ 			<div class="r13"><input type="button" name="" value="=" onclick="equals('=')"></div>
+ 		</div>
+ 		<div class="row4">
+ 			<div class="r14"><input type="button" name="" value="/" onclick="display('/')"></div>
+ 			<div class="r15"><input type="button" name="" value="*" onclick="display('*')"></div>
+ 			<div class="r16"><input type="button" name="" value="-" onclick="display('-')"></div>
+ 			<div class="r17"><input type="button" name="" value="+" onclick="display('+')"></div>
+ 		</div>
+ 		</div>
+ 	
+ </div></div>
+ <script type="text/javascript" src="js/calc.js"></script>
+</body>
+</html>

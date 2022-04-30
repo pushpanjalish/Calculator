@@ -81,22 +81,22 @@ width: 100px;
 
 
 
-@media screen and (max-width: 500px){
-.outer{
-	margin-left: 5px;
-margin-right: 5px;
-width: 140px;
-   height: 112px;
+@media screen and (max-width: 767px){
+.outer {
+    margin-left: 37px;
+    margin-right: 24px;
+    width: 185px;
+    height: 143px;
 }
 .row4 input,.row1 input,.row2 input,.row3 input{
-width: 35px;
+width: 46px;
 	height: 20px;
 	background-color: gray;
 	border-radius: 5px;
 	font-size: 12px;
 	margin-bottom: 1px;
 	margin-right: 1px;
-	margin-top: -8px;
+	margin-top: 7px;
 }
 .textpart {
    width: 70px;
@@ -104,21 +104,21 @@ width: 35px;
    height: 10px;
    margin-bottom: 50px;
 }
-.place input{
-  width: 100px;
-  height: 20px;
-  border-radius: 2px;
-  /*background-color: lawngreen;*/
+.place input {
+    width: 142px;
+    height: 29px;
+    border-radius: 9px;
+    /* background-color: lawngreen; */
 }
-.clear input{
-	width: 30px;
-	height: 20px;
-	border-radius: 2px;
-	margin-left: 4px;
-	background-color: darkred;
-	color: white;
- font-size: 11px;
- margin-top: 4px;
+.clear input {
+    width: 34px;
+    height: 29px;
+    border-radius: 7px;
+    margin-left: 4px;
+    background-color: darkred;
+    color: white;
+    font-size: 13px;
+    margin-top: 4px;
 }
 .flex-container{
 	margin-top: -30px;
@@ -129,3 +129,5 @@ body{
 	margin-top: 10px;
 }
 }
+
+

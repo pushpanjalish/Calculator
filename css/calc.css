@@ -83,50 +83,52 @@ width: 100px;
 
 @media screen and (max-width: 767px){
 .outer {
-    margin-left: 37px;
-    margin-right: 24px;
-    width: 185px;
-    height: 143px;
+    margin-left: -3px;
+    margin-right: 106px;
+    margin-top: 140PX;
+    width: 339px;
+    height: 277px;
 }
-.row4 input,.row1 input,.row2 input,.row3 input{
-width: 46px;
-	height: 20px;
-	background-color: gray;
-	border-radius: 5px;
-	font-size: 12px;
-	margin-bottom: 1px;
-	margin-right: 1px;
-	margin-top: 7px;
+.row4 input, .row1 input, .row2 input, .row3 input {
+    width: 84px;
+    height: 44px;
+    background-color: gray;
+    border-radius: 11px;
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-top: 7px;
 }
 .textpart {
-   width: 70px;
-   display: flex;
-   height: 10px;
-   margin-bottom: 50px;
+    width: 120px;
+    display: flex;
+    height: 24px;
+    margin-bottom: 43px;
+    FONT-SIZE: medium;
 }
 .place input {
-    width: 142px;
-    height: 29px;
-    border-radius: 9px;
+    width: 272px;
+    height: 62px;
+    border-radius: 17px;
     /* background-color: lawngreen; */
 }
 .clear input {
-    width: 34px;
-    height: 29px;
-    border-radius: 7px;
+    width: 56px;
+    height: 64px;
+    border-radius: 13px;
     margin-left: 4px;
     background-color: darkred;
     color: white;
-    font-size: 13px;
+    font-size: 17px;
     margin-top: 4px;
 }
-.flex-container{
-	margin-top: -30px;
+.flex-container {
+    margin-top: 17px;
 }
 body{
 	width: 50%;
 	height: 125px;
-	margin-top: 10px;
+	margin-top: -47px;
 }
 }
 
